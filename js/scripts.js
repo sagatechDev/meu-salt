@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log(payload);
       try {
         // POST real para o JSONPlaceholder
-        const response = await fetch("https://formspree.io/f/movwqbwq", {
+        const response = await fetch("https://webhook.thegrowthhub.app.br/webhook/bc7fa196-b7bf-4314-b726-a0cba39aa7c5", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
